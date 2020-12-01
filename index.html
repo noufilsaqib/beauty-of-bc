@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beauty of BC</title>
+    <link rel="icon" type="image/png" href="assets/Logo.png" sizes="32x32" />
+
+    <!-- Bootstrap Default Files -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    
+    <!-- jQuery UI Files -->
+	<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/base/jquery-ui.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Personal External Files -->
+    <link rel="stylesheet" type="text/css" href="css/global.css">
+    <script src="js/script.js"></script>
+    
+
+</head>
+<body id="page-top">
+
+    <!-- ***Navbar*** -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand" id="nav-logo">
+                <img src="assets/Logo.png" width="50" alt="Nav Logo">
+            </a>
+
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" id="explore-navlink">Explore</a></li>
+                    <li class="nav-item"><a class="nav-link" id="eatdrink-navlink">Eat & Drink</a></li>
+                    <li class="nav-item"><a class="nav-link" id="play-navlink">Play</a></li>
+                    <li class="nav-item"><a class="nav-link" id="stay-navlink">Stay</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav> <!-- Navbar End -->
+
+    <!-- ***Jumbotron Carousel*** -->
+    <section class="jumbo-carousel">
+        <div id="video-carousel-example" class="carousel slide carousel-fade" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#video-carousel-example" data-slide-to="0" class="active"></li>
+                <li data-target="#video-carousel-example" data-slide-to="1"></li>
+                <li data-target="#video-carousel-example" data-slide-to="2"></li>
+            </ol>
+    
+            <div class="carousel-inner" role="listbox">
+                <div class="carousel-item active">
+                    <div class="overlay">
+                        <video class="video-fluid" autoplay loop muted>
+                            <source src="assets/Videos/VideoHike.mp4" type="video/mp4" />
+                        </video>
+                    </div>
+                </div>
+    
+                <div class="carousel-item">
+                    <div class="overlay">
+                        <video class="video-fluid" autoplay loop muted>
+                            <source src="assets/Videos/VideoSki.mp4" type="video/mp4" />
+                        </video>
+                    </div>
+                </div>
+    
+                <div class="carousel-item">
+                    <div class="overlay">
+                        <video class="video-fluid" autoplay loop muted>
+                            <source src="assets/Videos/VideoCity.mp4" type="video/mp4" />
+                        </video>
+                    </div>
+                </div>
+            </div>
+    
+            <a class="carousel-control-prev" href="#video-carousel-example" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+    
+            <a class="carousel-control-next" href="#video-carousel-example" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+    
+            <div class="main-text">
+                <div class="col-md-12 text-center">
+                    <h3>EXPLORE</h3>
+                    <h1>British Columbia</h1>
+                </div>
+            </div>
+        </div>
+    </section> <!-- Jumbotron Carousel End -->
+
+    <!-- ***Intro Description*** -->
+    <section class="description-section">
+        <div class="container">
+            <div class="row align-items-center no-gutters mb-4 mb-lg-5">
+                <div class="col-xl-6 col-lg-6">
+                    <div class="text-center text-lg-left desc-title">
+                        <h1>DISCOVER THE BEAUTY OF BC</h1>
+                    </div>
+                    <button type="button" class="btn btn-outline-dark">Learn More</button>
+                </div>
+                <div class="col-xl-6 col-lg-6">
+                    <div class="text-center text-lg-left">
+                        <p class="mb-0 desc-para">Famous for it’s cold ocean and beautiful mountain ranges, British Columbia is one of the most beautiful provinces in Canada. From hiking to the top of the mountain to taking a post dip sunset swim in the ocean, prepare to have your breathe taken away.</p><br>
+                        <p class="mb-0 desc-para">From sea to sky with cities ranging from small towns to big cities, there is never a dull moment in beautiful British Columbia.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> <!-- Intro Description End -->
+
+    <!-- ***Explore Grid*** -->
+    <section class="explore-section" id="explore">
+        <div class="container">
+            <div class="row justify-content-center no-gutters mb-5 mb-lg-0 explore-row">
+                <div class="col-lg-6">
+                    <img class="img-fluid" src="assets/ExploreGrid1.jpg" alt="" />
+                </div>
+                <div class="col-lg-6">
+                    <div class=" text-center h-100">
+                        <div class="d-flex h-100">
+                            <div class="w-100 my-auto text-center text-lg-left">
+                                <h4 class="explore-row-title">EXPLORE IN THE WINTER</h4>
+                                <p class="mb-0 explore-row-desc">Rated one of the top ski locations in the world, choose from a selection of mountains where Olympians have skiied. Grouse, Cypress, Seymour, Whistler, and Blackcomb are just a few to name.</p> 
+                                    <br>
+                                <p class="mb-0 explore-row-desc">When you’re done, be sure to hit up a fun aprés at one of the local breweries.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row justify-content-center no-gutters explore-row">
+                <div class="col-lg-6">
+                    <img class="img-fluid" src="assets/ExploreGrid2.jpg" alt="" />
+                </div>
+                <div class="col-lg-6 order-lg-first">
+                    <div class=" text-center h-100">
+                        <div class="d-flex h-100">
+                            <div class="w-100 my-auto text-center text-lg-left">
+                                <h4 class="explore-row-title">EXPLORE IN THE SUMMER</h4>
+                                <p class="mb-0 explore-row-desc">From hiking all day to spending an entire day at the beach, there is never a shortage of activitities to participate in BC.</p> 
+                                    <br>
+                                <p class="mb-0 explore-row-desc">Being on the west coast, we have some pretty breath taking sunsets.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> <!-- Explore Grid End -->
+
+    <!-- ***Food Options*** -->
+    <section class="food-section" id="eatdrink">
+        <div class="container">
+            <h1 class="food-headtitle">DINE YOUR WAY THROUGH BC</h1>
+            <div class="text-lg-left food-headdesc">
+                <h1>Vancouver has some of the best restaurants and craft breweries. From sushi to unique dining experiences, to some of the best beer. Check them out below!</h1>
+            </div>
+            <div class="row mb-5 food-row">
+                <div class="col-lg-5">
+                    <img class="img-fluid" src="assets/FoodSushi.jpg" alt="" />
+                </div>
+                <div class="col-lg-6 offset-lg-1">
+                    <div class="d-flex h-100">
+                        <div class="w-100 my-auto text-center text-lg-left">
+                            <h4 class="food-title">Over 600 Sushi Restaurants to Choose From</h4>
+                            <p class="mb-0 food-desc">Known for it’s sushi restaurants, Vancouver has World Class Sushi Restaurants. There are so many to choose from which all offer a twist on the cuisine. 
+                            </p> 
+                                <br>
+                            <p class="mb-0 food-desc">Some of our favourites include Minami, Temaki, Sushi Bros, and Shizenya.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row justify-content-center food-row">
+                <div class="col-lg-5 offset-lg-1">
+                    <img class="img-fluid" src="assets/FoodDrinks.jpg" alt="" />
+                </div>
+                <div class="col-lg-6 order-lg-first">
+                    <div class="d-flex h-100">
+                        <div class="w-100 my-auto text-center text-lg-left">
+                            <h4 class="food-title">Up for an Adventure? You have to experience BC's Ale Trail</h4>
+                            <p class="mb-0 food-desc">With breweries recoginized from across the world, experience Vancouver with the BC Ale Trail. From taking in the ocean air to seeing the jaw dropping mountains, fuel your fun with craft beer made in BC.</p> 
+                                <br>
+                            <p class="mb-0 food-desc">Depending where you’re staying, you can start the Ale Trail from anywhere! Yes, there’s that many breweries. For more info, check it out here.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> <!-- Food Options End -->
+
+    <!-- ***Jumbotron Ski*** -->
+    <section class="jumboski-section" id="play"> 
+        <div class="jumbotron jumbotron-fluid">
+            <div class="container">
+                <h1 class="jumboski-title">FROM SEA TO SKY. PLAY LIKE YOU NEVER THOUGHT YOU COULD.</h1>
+            </div>
+        </div>
+    </section> <!-- Jumbotron Ski End -->
+
+    <!-- ***Play Options*** -->
+    <section class="play-section"> 
+        <div class="container">
+            <h1 class="play-title">PLAY IN THE BEAUTY OF BRITISH COLUMBIA</h1>
+            <div class="card-deck">
+                <div class="card card-custom mb-4">
+                    <img class="card-img-top" src="assets/Play1.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Play With Wildlife </h5>
+                        <button role="button" class="btn btn-link">
+                            <span class="spn">Learn More</span>
+                            <i class="fa fa-angle-right"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="card card-custom mb-4">
+                    <img class="card-img-top" src="assets/Play2.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Play In The City</h5>
+                        <button role="button" class="btn btn-link">
+                            <span class="spn">Learn More</span>
+                            <i class="fa fa-angle-right"></i> 
+                        </button>
+                    </div>
+                </div>  
+            </div>
+        </div>
+    </section> <!-- Play Options End -->
+
+    <!-- ***Jumbotron Booking*** -->
+    <section class="jumbobook-section" id="stay"> 
+        <div class="jumbotron jumbotron-fluid">
+            <div class="infobox">
+                <h1 class="jumbobook-title">Book Your Stay</h1>
+                <p class="jumbobook-desc">Check out our guide for the best neighbourhoods.</p>
+                <button role="button" class="btn btn-link">
+                    <span class="spn">Learn More</span>
+                    <i class="fa fa-angle-right"></i> 
+                </button>
+            </div>
+        </div>
+    </section> <!-- Jumbotron Booking End -->
+
+    <!-- ***Subscribe*** -->
+    <section class="subscribe-section">
+        <div class="container">
+            <div class="row sub-content">
+                <div class="col col-text">
+                    <h1 class="sub-title">Get Your BC Guide</h1>
+                    <p class="sub-desc">Live like the locals do. From hidden gems to the top recommended places, get your free guide. </p>
+                    <p class="sub-desc"></p>We promise you you’ll want it. What are you waiting for? Get it now.</p>
+                </div>
+                <div class="col col-form">
+                    <form>
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Your Name">
+                            <input type="email" class="form-control" placeholder="Your Email" style="margin-bottom: 1rem;">
+                        </div>
+                        <button class="btn btn-dark btn-block submit-btn">Submit</button>
+                      </form>
+                </div>
+            </div>
+        </div>
+    </section> <!-- Subscribe End -->
+
+    <!-- Footer -->
+    <footer class="page-footer">
+        <div class="container text-center text-md-left">
+            <div class="row justify-content-between">
+                <div class="col-4">
+                    <div class="mx-auto">
+                        <ul class="list-unstyled mt-3">
+                            <li><a class="link-custom explore-navlink">EXPLORE</a></li>
+                            <li><a class="link-custom eatdrink-navlink">EAT & DRINK</a></li>
+                            <li><a class="link-custom play-navlink">PLAY</a></li>
+                            <li><a class="link-custom stay-navlink">STAY</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-4 d-flex justify-content-center">
+                    <div class="my-auto">
+                        <a class="navbar-brand" id="nav-logo">
+                            <img src="assets/Logo.png" width="75" alt="Nav Logo">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-4 align-self-center">
+                    <div class="sm-icons">
+                        <button type="button" class="btn px-4">
+                            <i class="fa fa-2x fa-instagram"></i>
+                        </button>
+                        <button type="button" class="btn px-4">
+                            <i class="fa fa-2x fa-facebook-f"></i>
+                        </button>
+                        <button type="button" class="btn px-4">
+                            <i class="fa fa-2x fa-twitter"></i> 
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="foot-links">
+                <a class="link-custom2">Privacy Policy</a>
+                <a class="link-custom2">Terms & Conditions</a>
+            </div>
+        </div>
+    </footer>
+    
+</body>
+
+</html>

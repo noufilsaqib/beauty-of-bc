@@ -1,0 +1,345 @@
+@import url('https://fonts.googleapis.com/css2?family=Chewy&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Nunito:wght@200;300;400;600;700;800;900&display=swap');
+
+/* 
+  1rem = 16px
+*/
+
+body {
+    background: rgb(255, 255, 255);
+    overflow-x: hidden;
+    font-family: 'Nunito', sans-serif;
+}
+
+.navbar {
+    background-color: rgba(255,255,255,0);
+    transition: background-color 200ms linear;
+}
+
+.navbar.scrolled {
+    background-color: rgba(255,255,255,0.97) !important;
+    transition: background-color 200ms linear;
+}
+
+.navbar-brand, .nav-link, .link-custom {
+    cursor: pointer;
+}
+
+.nav-link {
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: rgb(255, 255, 255) !important;
+    padding-right: 3.5rem !important;
+    transition: color 200ms linear;
+}
+
+.nav-link.scrolled {
+    color: rgb(0, 0, 0) !important;
+    transition: color 200ms linear;
+}
+
+.overlay {
+    background-color: rgb(0, 0, 0);
+    height: 100vh;
+    max-height: 1080px;
+    max-width: 1920px;
+}
+
+.video-fluid {
+    opacity: 0.8;
+}
+
+.carousel-caption {
+ 	height: 100vh;
+}
+
+.carousel-indicators li{
+    margin: 0;
+    width: 50px;
+}
+
+.carousel-control-prev,
+.carousel-control-next{
+    bottom: 1%;
+    top: 95%;
+    z-index: 100;
+}
+
+.carousel-control-prev {
+    left: 20vw;
+}
+
+.carousel-control-next {
+    right: 20vw;
+}
+
+.main-text {
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    width: 90vw;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+.main-text h3 {
+    font-weight: 400;
+    letter-spacing: 0.5vw;
+    font-size: 1.25vw;
+    text-shadow: 0px 0px 3px rgb(255, 255, 255);
+}
+
+.main-text h1 {
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-size: 7vw;
+}
+
+.description-section {
+    padding: 5rem 0;
+}
+
+.desc-title {
+    font-family: 'Chewy', cursive;
+}
+
+.desc-title h1 {
+    font-size: 4.25rem;
+}
+
+.btn-outline-dark {
+    border-width: 2px;
+    border-radius: 0.5rem;
+}
+
+.explore-section {
+    padding: 0 0 4rem;
+}
+
+.explore-row {
+    background-color: rgba(134, 203, 205, 0.3);
+}
+
+.explore-row-title {
+    font-family: 'Chewy', cursive;
+    font-size: 2.5rem;
+    color: rgb(213, 83, 39);
+    text-align: center;
+}
+
+.explore-row-desc {
+    padding: 0 4rem;
+}
+
+.btn-custom {
+    color: rgb(213, 83, 39);
+    border-color: rgb(213, 83, 39);
+    border-width: 2px;
+    border-radius: 0.5rem;
+    margin: 1rem 0 0.5rem;
+}
+
+.food-section {
+    padding: 1rem 0 5rem;
+}
+
+.food-row .col-left {
+    padding-right: 3rem;
+}
+
+.food-row .col-right {
+    padding-left: 3rem;
+}
+
+.food-headtitle {
+    font-family: 'Chewy', cursive;
+    font-size: 3rem;
+    text-align: center;
+    color: rgb(213, 83, 39);
+    margin-bottom: 2rem;
+}
+
+.food-headdesc {
+    padding: 0 3rem;
+}
+
+.food-headdesc h1 {
+    font-size: 2rem;
+    margin-bottom: 3rem;
+}
+
+.food-title {
+    font-size: 2rem;
+    color: rgb(213, 83, 39);
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+
+.jumboski-section {
+    background-image: url("../assets/JumboSki.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+
+.jumbotron {
+    background-color: rgba(0,0,0,0);
+    height: 60vh;
+    margin-bottom: 0;
+}
+
+.jumbotron .container {
+    width: 65vw;
+    margin-top: 100px;
+    margin-left: 5vw;
+}
+
+.jumboski-title {
+    font-family: 'Chewy', cursive;
+    font-size: 3rem;
+    color: rgb(213, 83, 39);
+}
+
+.play-section {
+    background-color:  rgba(134, 203, 205, 0.3);
+    width: 100vw;
+    max-width: 100%;
+    padding-bottom: 5rem;
+}
+
+.play-title {
+    font-family: 'Chewy', cursive;
+    font-size: 3rem;
+    text-align: center;
+    padding: 3rem 0 3rem;
+}
+
+.card-custom {
+    background-color: rgb(134, 203, 205);
+}
+
+.card-title {
+    color: rgba(255,255,255,1);
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.btn-link {
+    color: rgba(255,255,255,1);
+    font-style: italic;
+    padding: 0;
+}
+
+.btn-link:hover {
+    color: rgba(255,255,255,1);
+}
+
+.fa-angle-right {
+    padding-left: 3px;
+    transition: all 200ms linear;
+}
+
+.btn-link:hover > .fa-angle-right {
+    padding-left: 7px;
+    transition: all 200ms linear;
+}
+
+.jumbobook-section {
+    background-image: url("../assets/JumboBook.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+
+.infobox {
+    background-color: rgb(213, 83, 39);
+    color: rgba(255,255,255,1);
+    width: 35vw;
+    padding: 2rem;
+    margin-top: 1rem;
+    margin-left: 3rem;
+}
+
+.jumbobook-title {
+    font-size: 2rem;
+    font-weight: 700;
+    word-wrap: break-word;
+}
+
+.jumbobook-desc {
+    font-size: 1.2rem;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.sub-content {
+    padding: 5rem 3rem;
+}
+
+.col-text {
+    padding-right: 10rem;
+}
+
+.sub-title {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.form-control {
+    margin-bottom: 0.5rem;
+}
+
+.submit-btn {
+    border-radius: 0.5rem;
+}
+
+.page-footer {
+    background-color:  rgba(134, 203, 205, 0.3);
+    padding: 2rem 1rem;
+}
+
+.link-custom {
+    color: rgb(33, 37, 41);
+    font-weight: 600;
+}
+
+.link-custom:hover {
+    color: rgb(33, 37, 41);
+}
+
+.sm-icons {
+    text-align: right;
+}
+
+.foot-links {
+    text-align: right;    
+}
+
+.link-custom2 {
+    color: rgb(33, 37, 41);
+    font-weight: 400;
+    margin-left: 2rem;
+}
+
+.link-custom2:hover {
+    color: rgb(33, 37, 41);
+}
+
+/*
+    Bootstrap Breakpoints (max-width)
+    xs: 575px
+    sm: 767px
+    md: 991px
+    lg: 1199px
+    xl: no media query needed
+*/
+
+@media (max-width: 991px) {
+    .navbar {
+        background-color: rgb(255, 255, 255) !important;
+    }
+    .nav-link {
+        color: rgb(0, 0, 0) !important;
+    }
+}
