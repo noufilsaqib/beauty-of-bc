@@ -41,7 +41,7 @@ body {
     display: none;
     }
 
-.img-fluid {  
+.img-fluid-jumbo {  
     opacity: 0.8;  
     display: flex;
     width: 100% !important;
@@ -70,7 +70,7 @@ body {
             position: absolute;
         }
 
-        .img-fluid {
+        .img-fluid-jumbo {
             display: none;
         }
 
