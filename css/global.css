@@ -201,6 +201,12 @@ body {
     color: rgb(213, 83, 39);
 }
 
+@media (max-width: 500px) {
+    .jumboski-title {
+        font-size: 2rem;
+    }
+}
+
 .play-section {
     background-color:  rgba(134, 203, 205, 0.3);
     width: 100vw;
