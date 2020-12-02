@@ -213,6 +213,7 @@ body {
 
 .jumboski-section {
     background-image: url("../assets/JumboSki.jpg");
+    background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top right;
