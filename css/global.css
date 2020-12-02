@@ -326,6 +326,18 @@ body {
     color: rgb(33, 37, 41);
 }
 
+.button-learn-more {
+    margin: 20px 0;
+}
+
+@media (max-width: 991px) {
+    .button-center {
+        text-align: center !important;
+    }
+    
+}
+
+
 /*
     Bootstrap Breakpoints (max-width)
     xs: 575px
