@@ -334,6 +334,10 @@ body {
     .button-center {
         text-align: center !important;
     }
+
+    .logo-main {
+        width: 50px;
+    }
     
 }
 
