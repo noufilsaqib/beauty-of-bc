@@ -61,16 +61,19 @@ body {
             max-height: 1080px;
             max-width: 1920px;
             width: 100%;
+            justify-content: center;
         }
 
         .video-fluid {
             opacity: 0.8;
             display: flex;
+            position: absolute;
         }
 
         .img-fluid {
             display: none;
         }
+
     }
 
 
