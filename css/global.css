@@ -90,6 +90,12 @@ body {
     text-shadow: 0px 0px 3px rgb(255, 255, 255);
 }
 
+@media (max-width: 991px) {
+    .main-text h3 {
+    font-size: 1rem;
+    }
+}
+
 .main-text h1 {
     font-weight: 700;
     letter-spacing: 1px;
